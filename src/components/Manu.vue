@@ -16,8 +16,8 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/north">ภาคเหนือ</a></li>
             <li><a class="dropdown-item" href="#">ภาคใต้</a></li>
-            <li><a class="dropdown-item" href="#">ภาคตะวันออก</a></li>
-            <li><a class="dropdown-item" href="/South">ภาคตะวันออกเฉียงเหนือ</a></li>
+            <li><a class="dropdown-item" href="/East">ภาคตะวันออก</a></li>
+            <li><a class="dropdown-item" href="/northeast">ภาคตะวันออกเฉียงเหนือ</a></li>
           </ul>
 
           <a class="nav-link px-2 text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -1,16 +1,14 @@
 <template>
   
 
-
-
-
-  <South />
+  <East />
+  <Northeast />
   <North />
   <Manu />
   <Contact />
   <login />
   <VideoGallery />
-  
+
 <router-view />
 
 </template>

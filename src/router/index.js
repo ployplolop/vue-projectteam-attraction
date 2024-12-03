@@ -7,11 +7,24 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  ,
+  {
+    path: '/north',
+    name: 'North',
+
+    component: () => import('../views/North.vue')
+  },
   {
     path: '/video',
     name: 'video',
 
     component: () => import('../components/VideoGallery.vue')
+  },
+  {
+    path: '/east',
+    name: 'East',
+
+    component: () => import('../views/East.vue')
   },
   {
     path: '/contact',
@@ -24,20 +37,13 @@ const routes = [
     name: 'login',
 
     component: () => import('../views/login.vue')
-  }, 
-  {
-    path: '/north',
-    name: 'north',
-
-    component: () => import('../views/North.vue')
   },
-  , 
   {
-    path: '/south',
-    name: 'south',
+    path: '/northeast',
+    name: 'Northeast',
 
-    component: () => import('../views/South.vue')
-  },
+    component: () => import('../views/Northeast.vue')
+  }
 ]
 
 const router = createRouter({
@@ -45,5 +51,5 @@ const router = createRouter({
   routes
 })
 
-
+East
 export default router
