@@ -1,10 +1,30 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  
+
+
+
+
+  <South />
+  <North />
+  <Manu />
+  <Contact />
+  <login />
+  <VideoGallery />
+  
+<router-view />
+
 </template>
+
+<script>
+import Manu from './components/Manu.vue';
+
+export default{
+components:{
+  Manu 
+}
+}
+</script>
+
 
 <style>
 #app {
